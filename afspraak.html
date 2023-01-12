@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titlle></titlle>
+    </head>
+    <body>
+        <h1> Tandartspraktijk KiesKeurig</h1>
+         <p> Voor een afspraak bij de tandarts moet u gewoon de volgende formulier invullen.  probeer om zo veel mogelijk de pijn en probleem te beschrijven. indien mogelkijk voeg een afbeelding bij.<br> <b> Let op; afsparken die spoedig zijn krijgen voorang!</b> Je zal binnen de 24 uur terughoren van ons. <br> Indien de situatie heel spoedig is of tijdens de weekend en feestdagen bel dan naar de wachtdienst op 090339969 of ga naar spoed in het ziekenhuis.</p>   
+   <figure>
+    <img
+    src="images2.jpg"
+    alt="foto 1"
+    title="tandartspraktijk"
+    width="300" height="200">
+    <img
+ src="download (1).jpg"
+    alt="foto 2"
+    title="tandartsstoel"
+    width="300" height="200">
+    <img
+    src="images.jpg"
+    alt="foto 3"
+    title="tandatrts spullen"
+    width="300" height="200">
+   </figure>
+   <form action="https://formspree.io/f/mvonoonw" method="post">
+    <fieldset>
+        <legend><b>Persoonlijke gegevens</b></legend> <br>
+        <label for="naam"> Naam:</label>
+        <input id="naam" type="text" name="naam"> 
+        <label for="voornaam"> Voornaam:</label>
+        <input id="Voornaam" type="text" name="voornaam"> <br><br>
+        <label for="Geslacht">Geslacht:</label>
+        <input type="radio" name="geslacht" value="man" checked> man
+        <input type="radio" name="geslacht" value="vrouw" checked> vrouw
+        <input type="radio" name="geslacht" value="anders" checked> anders <br><br>
+        <label for="bent u al patient"> Bent u al patient</label>
+        <select name="al patient">
+            <option value=""></option>
+            <option value="ja">JA</option>
+            <option value="neen">Neen</option>
+        </select><br><br>
+        <label for="rijkregisternummer"> Rijkregisternummer:</label>
+        <input id="Rijkregisternummer" type="number" name="Rijkregisternummer"><br><br>
+        <label for="adres"> Adres:</label>
+        <input id="adres" type="text" name="adres">
+        <label for="postcode"> Postcode:</label>
+        <input id="Postcode" type="text" name="Postcode"> 
+        <label for="Woonplaats">Woonplaats:</label>
+        <input id="woonplaats" type="text" name="woonplaats"><Br><Br>
+        <label for="Telefoonnummer"> Telefoonnummer:</label>
+        <input id="Telefoonnummer" type="tel" name="telefoonnummer"><br><br>
+        <label for="emailadres"> E-mailadres:</label>
+        <input id="e-mailadres" type="text" name="e-mailadres">
+</fieldset>
+<fieldset>
+    <legend><b>Beschrijving van de klachten:</b></legend><br>
+    <select name="afspraak reden">
+        <option value=""></option>
+        <option value="jaarlijkse controle"> Jaarlijkse Controle</option>
+        <option value="Klachten na een behandeling"> Klachten na een behandeling</option>
+        <option value="klachten al meer dan 24 uur"> Klachten al meer dan 24 uur</option>
+        <option value="Noodegevallen">Noodgevallen</option>
+    </select>
+    <p> <b> Als de klachten heel sterk is of het lijkt dat er iets erg aan de hand is raden we jullie aan om direct naar het spoed in het ziekenhuis te gaan!</b></p>
+<label for="Foto bijvoegen"> Voeg indien mogelijk een afbeelding toe</label>
+<input id="profile" type="file" name="afbeeldingen"> <br><br>
+</fieldset>
+<fieldset>
+    <legend><b> Toelichting van de klant</b></legend>
+    <label for="opmerkingen"> Opmerkingen</label>
+    <textarea name="opmerkingen" maxlength="15000"></textarea><br><br>
+    <label for="selecteer uw gewensteb datum voor een afspraak"> Selecteer uw gewenste datum voor een afspraak</label>
+    <input type="date" name="datum" max="2080-12-31">
+</fieldset><br>
+<input type="submit" value="verzend">
+</form>
+        </body>
+</html>
